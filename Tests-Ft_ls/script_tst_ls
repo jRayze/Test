@@ -1,0 +1,160 @@
+
+echo ls :
+
+./ft_ls ../../ | grep -c "**" > my_ls 
+ls ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls 
+
+echo ls -l :
+
+./ft_ls -l ../../ | grep -c "**" > my_ls 
+ls -l ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls 
+
+echo ls -R:
+
+./ft_ls -R ../../ | grep -c "**" > my_ls 
+ls -R ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls 
+
+echo ls -a :
+
+./ft_ls -a ../../ | grep -c "**" > my_ls 
+ls -a ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls 
+
+echo ls -r :
+
+./ft_ls -r ../../ | grep -c "**" > my_ls 
+ls -r ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -t :
+
+./ft_ls -t ../../ | grep -c "**" > my_ls 
+ls -t ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -Ra :
+
+./ft_ls -Ra ../../ | grep -c "**" > my_ls 
+ls -Ra ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -Rt :
+
+./ft_ls -Rt ../../ | grep -c "**" > my_ls 
+ls -Rt ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lR :
+
+./ft_ls -lR ../../ | grep -c "**" > my_ls 
+ls -lR ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -la :
+
+./ft_ls -la ../../ | grep -c "**" > my_ls 
+ls -la ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lr :
+
+./ft_ls -lr ../../ | grep -c "**" > my_ls 
+ls -lr ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lt :
+
+./ft_ls -lt ../../ | grep -c "**" > my_ls 
+ls -lt ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lRa :
+
+./ft_ls -lRa ../../ | grep -c "**" > my_ls 
+ls -lRa ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lRr :
+
+./ft_ls -lRr ../../ | grep -c "**" > my_ls 
+ls -lRr ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lRt :
+
+./ft_ls -lRt ../../ | grep -c "**" > my_ls 
+ls -lRt ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lar :
+
+./ft_ls -lar ../../ | grep -c "**" > my_ls 
+ls -lar ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lat :
+
+./ft_ls -lat ../../ | grep -c "**" > my_ls 
+ls -lat ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls 
+
+echo ls -lrt :
+
+./ft_ls -lrt ../../ | grep -c "**" > my_ls 
+ls -lrt ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls 
+
+echo ls -lRar :
+
+./ft_ls -lRar ../../ | grep -c "**" > my_ls 
+ls -lRar ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls 
+
+echo ls -lRat :
+
+./ft_ls -lRat ../../ | grep -c "**" > my_ls 
+ls -lRat ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lRrt :
+
+./ft_ls -lRrt ../../ | grep -c "**" > my_ls 
+ls -lRrt ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lart :
+
+./ft_ls -lart ../../ | grep -c "**" > my_ls 
+ls -lart ../../ | grep -c "**" > ls
+diff my_ls ls
+rm my_ls ls
+
+echo ls -lRart :
+
+./ft_ls -lRart ../../ | grep -c "**" > my_ls 
+ls -lRart ../../ | grep -c "**" > ls
+diff my_ls ls 
